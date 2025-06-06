@@ -1,6 +1,6 @@
 {
   "name": "notion-search-mcp-server",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
     "deploy": "wrangler deploy",
@@ -10,7 +10,13 @@
   },
   "devDependencies": {
     "@biomejs/biome": "1.9.4",
-    "typescript": "^5.5.2",
+    "@types/node": "^22.15.30",
+    "typescript": "^5.8.3",
     "wrangler": "^4.19.1"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "agents": "^0.0.95",
+    "zod": "^3.25.55"
   }
 }
